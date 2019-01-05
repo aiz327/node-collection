@@ -23,7 +23,7 @@ var c = new Crawler({
 
 // Queue URLs with custom callbacks & parameters
 c.queue([{
-  uri: 'https://www.baidu.com',
+  uri: 'https://xueqiu.com/S/SH600028',
   jQuery: true,
 
   // The global callback won't be called
@@ -32,7 +32,7 @@ c.queue([{
           console.log(error);
       }else{
         var $ = res.$;
-        console.log($("script").text())
+        console.log($("body").text())
         // stockDB.insert({1: res.body}, function (err, newDoc) {   // Callback is optional
         //   console.log(err, newDoc)
         //   console.log("storedb success");

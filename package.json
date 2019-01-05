@@ -2,15 +2,18 @@
   "name": "collect",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "",
+  "author": "Evan",
   "license": "ISC",
   "dependencies": {
     "crawler": "^1.2.0",
-    "nedb": "^1.8.0"
+    "nedb": "^1.8.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }

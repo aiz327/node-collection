@@ -1,0 +1,29 @@
+Request URL: https://stock.xueqiu.com/v5/stock/quote.json?symbol=SH600028&extend=detail
+Request Method: GET
+
+获取市场当天基本数据
+
+
+Request URL: https://stock.xueqiu.com/v5/stock/chart/minute.json?symbol=SH600028&period=1d
+Request Method: GET
+
+分时数据
+
+Request URL: https://stock.xueqiu.com/v5/stock/history/trade.json?symbol=SH600028&count=10
+Request Method: GET
+
+成交明细（行情）
+
+Request URL: https://stock.xueqiu.com/v5/stock/realtime/pankou.json?symbol=SH600028
+Request Method: GET
+
+盘口数据（行情）
+
+Request URL: https://stock.xueqiu.com/v5/stock/chart/kline.json?symbol=SH600028&begin=1546227797501&period=day&type=before&count=-142&indicator=kline,ma,macd,kdj,boll,rsi,wr,bias,cci,psy
+Request Method: GET
+symbol=SH600028&begin=1546227797501&period=day&type=before&count=-142&indicator=kline,ma,macd,kdj,boll,rsi,wr,bias,cci,psy
+k线行情
+
+Request URL: https://stock.xueqiu.com/v5/stock/f10/cn/company.json?symbol=SH600028
+Request Method: GET
+公司简介

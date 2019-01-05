@@ -1,0 +1,1 @@
+export default () => <div>Welcome to steam next.js!</div>

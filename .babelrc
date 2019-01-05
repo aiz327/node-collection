@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": {
+          "targets": {
+            "node": true
+          }
+        },
+        "transform-runtime": {
+          "regenerator": false
+        }
+      }
+    ]
+  ],
+  "plugins": []
+}
